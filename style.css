@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./HD-wallpaper-male-model-male-model-body-man-hunk-muscles-sexy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 110vh;
+    scroll-behavior: smooth;
+}
+
+header{
+  
+    padding: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logoBox{
+  
+    display: inline-block;
+    width: 200pxpx;
+}
+.logoBox:hover{
+    color:black;
+    transition: all 0.8s;
+}
+.navBox{
+   
+    width: 450px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    
+}
+.navBox>a:hover{
+    color: rgb(235, 133, 153);
+    transition: all 0.8s;
+}
+
+.navBox > a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.heading{
+    
+    color:white;
+    font-size: 70px;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+    left: 80px;
+    width: 500px;
+}
+.heading+h3{
+    color:black;
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 600px;
+    position: relative;
+    top: 80px;
+    left:100px;
+}
+.heading+h3+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+    left:100px;
+    width: 400px;
+    line-height: 30px;
+    word-spacing: 1px;
+    font-style: italic;
+
+}
+.btn{
+    padding: 0.7rem;
+    background-color: white;
+    color:black;
+    border: none;
+    border-radius: 2rem;
+    position: relative;
+    top: 120px;
+    left: 100px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 300px;
+    
+    
+
+}
+.btn:hover{
+    color: black;
+    background-color:rgb(208, 109, 129);
+    transition: all 0.8s;
+}
+
+footer {
+    font-size: 20px;
+    position:relative;
+    top:220px;
+    
+    
+}
